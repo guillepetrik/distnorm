@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+            <title>Graficador Dist Norm</title>
+            <link rel="stylesheet" href="./style.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://www.gstatic.com/charts/loader.js"></script>
+            <script src="./script.js" defer></script>
+    </head>
+
+        <body>
+            <div id = "contenedor">
+               
+                <div id = "calculadora">
+
+                     <div class = "contenido">
+                         <h1>Graficador de Distribucion Normal</h1>
+                         <p>Introducir los valores: Media, Desviacion Estandar y el rango</p>
+                         <p>(X1 ≤ X ≤ X2 )</p>
+                         <input class = "cuadro" id = "mean" type="number" placeholder="media"/>
+                         <input class = "cuadro" id = "desv" type="number" placeholder="desvest"/>
+                         <input class = "cuadro" id = "xuno" type="number" placeholder="x1"/>
+                         <input class = "cuadro" id = "xdos" type="number" placeholder="x2"/>
+                         <br>
+                         <button type="button" id = "go"> GO! </button>
+                         <button type="button" id = "reset"> LIMPIAR </button>
+
+                     </div>
+                 </div>
+
+                <div id="grafica">
+                    <p id="error">Verifique las casillas</p>
+                  </div>
+       </div>
+    </body>
+
+</html>

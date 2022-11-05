@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+body{ 
+    background-color:  #D5DFE5;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+#contenedor{ 
+    width: 1100px;
+    height: 550px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.15), 
+    0 10px 10px rgba(0,0,0,0.04);
+    border-radius: 14px;
+    
+} 
+#calculadora{
+    background-color: white;
+    width: 25%;
+    float: left;
+    height: 100%;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #333333;
+
+
+}      
+.contenido{
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 40px;
+}
+#grafica{
+    background-color: #C9B1BD;
+    float: right;
+    width: 75%;
+    height: 100%;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+}
+button{
+    padding: 8%;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Raleway', 'sans-serif';
+    background-color:#C9B1BD;
+    color: white;
+    letter-spacing: 1.75px;
+    border: none;
+    border-radius: 16px;
+    transition: transform 18ms ease-in;
+}
+button:active {
+	transform: scale(0.95);
+}
+input{
+    background-color: #F5EBE0;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Raleway', 'sans-serif';
+    width: 45%;
+    margin-bottom: 12px;
+    text-align: center;
+}
+#error{
+    color: #EF3E36;
+    font-size: 35px;
+    font-weight: bold;
+    display: none;
+    margin-left: 250px;
+    font-family: 'Raleway', 'sans-serif';
+}
